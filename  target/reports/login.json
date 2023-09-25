@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add a new roles with multiple sets of data",
+        "description": "",
+        "id": "create-a-new-role;add-a-new-roles-with-multiple-sets-of-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11648389300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Ranford page",
+            "match": {
+              "location": "Role_StDef.i_am_on_Ranford_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3300975400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login with \"Admin\" and \"TestingMindq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 14
+                },
+                {
+                  "val": "TestingMindq",
+                  "offset": 26
+                }
+              ],
+              "location": "Role_StDef.i_login_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2491797400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Role_StDef.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6213400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I naviagte to Home page",
+            "match": {
+              "location": "Role_StDef.i_naviagte_to_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 651110600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Role button",
+            "match": {
+              "location": "Role_StDef.i_click_on_the_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16667938900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#\tAnd   I click on the New Role button"
+              }
+            ],
+            "line": 10,
+            "name": "I enter the New Role details",
+            "match": {
+              "location": "Role_StDef.i_enter_the_New_Role_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "RoleName",
+                  "RoleType"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "MarketingManager",
+                  "E"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "ServiceManager",
+                  "E"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "BuisnessAnalyst",
+                  "E"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760485000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#\tAnd   I click on the Submit button"
+              },
+              {
+                "line": 16,
+                "value": "#\tThen  I see the required message after role creation"
+              }
+            ],
+            "line": 17,
+            "name": "I am back to Home page",
+            "match": {
+              "location": "Role_StDef.i_am_back_to_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2112624100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I logout of the application",
+            "match": {
+              "location": "Role_StDef.i_logout_of_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new Role",
+    "description": "",
+    "id": "create-a-new-role",
+    "keyword": "Feature",
+    "uri": "C:/Users/Srikalyani Kotha/eclipse-sriworkspace/CucumberJava/src/features/Role.feature"
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/eclipse-sriworkspace/Ebankingproj/src/ebankingproj/jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/Copy of cobertura-2.1.1(1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/Copy of cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/Copy of mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/cucumber-reporting-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Srikalyani Kotha/Desktop/CucumberJars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
